@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <title>Բազմալեզու Կեսարի Գաղտնագիր</title>
+  
+</head>
+<body>
+
+  <h1>Բազմալեզու Կեսարի Գաղտնագիր</h1>
+
+  <label for="text">Տեքստ</label>
+  <textarea id="text" rows="4" placeholder="Մուտքագրիր տեքստը այստեղ..."></textarea>
+
+  <label for="key">Բանալի (թիվ)</label>
+  <input type="number" id="key" placeholder="Օրինակ՝ 3">
+
+  <div class="btn-group">
+    <button onclick="processText(true)">Գաղտնագրել</button>
+    <button onclick="processText(false)">Վերծանել</button>
+  </div>
+
+  <h2>Արդյունքը՝</h2>
+  <div id="output"></div>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+</body>
+</html>
