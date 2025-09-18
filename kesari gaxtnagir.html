@@ -7,6 +7,7 @@
 </head>
 <body>
 
+
   <h1>Բազմալեզու Կեսարի Գաղտնագիր</h1>
 
   <label for="text">Տեքստ</label>
@@ -20,11 +21,17 @@
     <button onclick="processText(false)">Վերծանել</button>
   </div>
 
+  <button id="toggleSteps" onclick="toggleSteps()">Ցուցադրել/Թաքցնել քայլերը</button>
+
   <h2>Արդյունքը՝</h2>
   <div id="output"></div>
+
+  <h2>Հաշվարկի քայլերը՝</h2>
+  <pre id="steps"></pre>
 
 <link rel="stylesheet" href="style.css">
 <script src="script.js"></script>
 
 </body>
 </html>
+
