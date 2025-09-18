@@ -1,4 +1,3 @@
-
     body {
       font-family: Arial, sans-serif;
       background-color: #f0f4f8;
@@ -7,7 +6,7 @@
       margin: auto;
     }
 
-    h1 {
+    h1, h2 {
       text-align: center;
       color: #333;
     }
@@ -34,12 +33,20 @@
       background-color: #0056b3;
     }
 
-    #output {
+    #output, #steps {
       background-color: #fff;
       padding: 15px;
       border: 1px solid #ccc;
       min-height: 50px;
       white-space: pre-wrap;
+    }
+
+    #steps {
+      background-color: #eef;
+      border: 1px dashed #666;
+      font-family: monospace;
+      font-size: 14px;
+      display: none; /* սկզբում թաքցրած */
     }
 
     .btn-group {
@@ -49,4 +56,12 @@
 
     .btn-group button {
       flex: 1;
+    }
+
+    #toggleSteps {
+      background-color: #28a745;
+    }
+
+    #toggleSteps:hover {
+      background-color: #1e7e34;
     }
